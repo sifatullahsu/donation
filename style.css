@@ -30,6 +30,9 @@ a{
     text-decoration: none;
     color: #FF5959;
 }
+input{
+    border: 0;
+}
 .btn{
     display: inline-block;
     padding: 12px 24px;
@@ -91,7 +94,7 @@ a{
 
 /* -------------- Donation Form Section Style Start -------------- */
 .donation-form-section{
-    padding: 80px 0;
+    padding: 80px 0 40px;
     text-align: center;
 }
 .donation-form form {
@@ -168,3 +171,61 @@ a{
     font-weight: 500;
 }
 /* -------------- Donation Form Section Style End -------------- */
+
+
+/* -------------- Donation plan Section Style End -------------- */
+.donation-plan-section{
+    padding: 80px 0 40px;
+}
+.donation-plan {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+.donation-plan-box {
+    margin: 0 10px;
+    padding: 45px 25px;
+    border-radius: 4px;
+}
+.img-box-1{
+    background: #edf5f6;
+}
+.img-box-2{
+    background: #ffeeee;
+}
+.img-box-3{
+    background: #fff4d6;
+}
+/* -------------- Donation plan Section Style End -------------- */
+
+
+
+
+.newsletter-section{
+    padding: 80px 0 80px;
+}
+.newsletter-box{
+    margin-top: 30px;
+    text-align: center;
+}
+.newsletter-box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px;
+    background: #fff4d6;
+    border-radius: 5px;
+}
+.newsletter-box input[type="mail"]{
+    width: 60%;
+    padding: 12px;
+    background: #d9d9d9;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+.newsletter-box input[type="submit"]{
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
