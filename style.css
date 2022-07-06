@@ -74,8 +74,11 @@ input{
     display: flex;
     flex-wrap: wrap;
 }
-.mt-40{
-    margin-top: 40px;
+.mt-15{
+    margin-top: 15px;
+}
+.mt-25{
+    margin-top: 25px;
 }
 .pt-45{
     padding-top: 45px;
@@ -232,48 +235,7 @@ input{
 /* -------------- Donation plan Section Style End -------------- */
 
 
-
-/* -------------- Newsletter Section Style Start -------------- */
-.newsletter-box{
-    margin-top: 30px;
-    text-align: center;
-}
-.newsletter-box-inner {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 60px;
-    background: #fff4d6;
-    border-radius: 5px;
-}
-.newsletter-box input[type="mail"]{
-    width: 60%;
-    padding: 12px;
-    background: #d9d9d9;
-    border: 0;
-    border-radius: 5px 0 0 5px;
-}
-.newsletter-box input[type="submit"]{
-    border-radius: 0 5px 5px 0;
-}
-/* -------------- Newsletter Section Style End -------------- */
-
-
-/* -------------- Footer Style Start -------------- */
-footer{
-    background-color: #0b0d17;
-    text-align: center;
-    padding: 40px 10px;
-}
-footer h3{
-    color: #FF5959;
-    font-size: 25px;
-}
-/* -------------- Footer Style End -------------- */
-
-
-
-
-
+/* -------------- Donation Block Start -------------- */
 .block-info {
     background: #FF5959;
     color: #fff;
@@ -308,8 +270,6 @@ footer h3{
 .block-info.style-2 .amount {
     color: #FF5959;
 }
-
-
 .donation-block-images img{
     border-radius: 7px;
     height: 300px;
@@ -317,10 +277,52 @@ footer h3{
     object-position: right;
     margin-bottom: 13px;
 }
-
 .donation-spend {
     margin-top: 30px;
 }
 .donation-spend img{
     width: 60px;
 }
+/* -------------- Donation Block End -------------- */
+
+
+/* -------------- Newsletter Section Style Start -------------- */
+.newsletter-box{
+    margin-top: 30px;
+    text-align: center;
+}
+.newsletter-box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px;
+    background: #fff4d6;
+    border-radius: 5px;
+}
+.newsletter-box input[type="mail"]{
+    width: 60%;
+    padding: 18px;
+    background: #d9d9d9;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+.newsletter-box input[type="submit"]{
+    border-radius: 0 5px 5px 0;
+    padding: 18px 24px;
+}
+/* -------------- Newsletter Section Style End -------------- */
+
+
+/* -------------- Footer Style Start -------------- */
+footer{
+    background-color: #0b0d17;
+    text-align: center;
+    padding: 40px 10px;
+}
+footer h3{
+    color: #FF5959;
+    font-size: 25px;
+}
+/* -------------- Footer Style End -------------- */
+
+
+
