@@ -7,9 +7,20 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
+section{
+    padding: 40px 0;
+}
+section.first{
+    padding-top: 80px;
+}
+section.last{
+    padding-bottom: 80px;
+}
 .section-container{
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 h1, h2, h3, h4, h5, h6{
     color: #121212;
@@ -25,6 +36,12 @@ h2{
 p, span{
     font-size: 16px;
     line-height: 25px;
+}
+p{
+    color: #707070;
+}
+img{
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -43,7 +60,26 @@ input{
     color: #fff;
 }
 
-
+/* .column-elements {} */
+.col-100{
+    flex: 0 0 100%;
+}
+.col-50{
+    flex: 0 0 50%;
+}
+.row{
+    margin: 0 10px;
+}
+.inner-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.pt-45{
+    padding-top: 45px;
+}
 /* -------------- Hero Section Style Start -------------- */
 .hero-section{
     /* background: url(img/donation10.jpg) rgba(255, 0, 150, 0.3); */
@@ -70,6 +106,7 @@ input{
 }
 .hero-section p {
     padding: 0 80px;
+    color: #fff;
 }
 /* -------------- Hero Section Style End -------------- */
 
@@ -85,16 +122,12 @@ input{
 .section-heading .section-heading-inner *{
     margin-bottom: 15px;
 }
-.section-heading p{
-    color: #707070;
-}
 
 /* -------------- Section Heading Block Style End -------------- */
 
 
 /* -------------- Donation Form Section Style Start -------------- */
 .donation-form-section{
-    padding: 80px 0 40px;
     text-align: center;
 }
 .donation-form form {
@@ -174,9 +207,6 @@ input{
 
 
 /* -------------- Donation plan Section Style End -------------- */
-.donation-plan-section{
-    padding: 80px 0 40px;
-}
 .donation-plan {
     display: flex;
     flex-wrap: nowrap;
@@ -186,6 +216,9 @@ input{
     margin: 0 10px;
     padding: 45px 25px;
     border-radius: 4px;
+}
+.donation-plan-box img{
+    width: 60px;
 }
 .img-box-1{
     background: #edf5f6;
@@ -201,9 +234,6 @@ input{
 
 
 /* -------------- Newsletter Section Style Start -------------- */
-.newsletter-section{
-    padding: 80px 0 80px;
-}
 .newsletter-box{
     margin-top: 30px;
     text-align: center;
@@ -239,3 +269,58 @@ footer h3{
     font-size: 25px;
 }
 /* -------------- Footer Style End -------------- */
+
+
+
+
+
+.block-info {
+    background: #FF5959;
+    color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.block-info h3{
+    color: #fff;
+}
+.block-info .small{
+    font-size: 14px;
+    color: #fff;
+}
+.block-info .amount {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+}
+.block-info.style-2 {
+    background: #fff;
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,238,238,1) 80%); 
+    border: 2px solid #FF5959;
+}
+.block-info.style-2 h3{
+    color: #121212;
+}
+.block-info.style-2 .small{
+    color: #121212;
+}
+.block-info.style-2 .amount {
+    color: #FF5959;
+}
+
+
+.donation-block-images img{
+    border-radius: 7px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+    margin-bottom: 13px;
+}
+
+.donation-spend {
+    margin-top: 30px;
+}
+.donation-spend img{
+    width: 60px;
+}
