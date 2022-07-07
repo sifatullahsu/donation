@@ -85,8 +85,7 @@ input{
 }
 /* -------------- Hero Section Style Start -------------- */
 .hero-section{
-    /* background: url(img/donation10.jpg) rgba(255, 0, 150, 0.3); */
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.46) 70%), url(img/donation10.jpg);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.46) 70%), url(img/donation10.jpg); /* I learn this from google. */
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,22 +151,22 @@ input{
     margin: 0 5px 0 0;
     width: 100px;
     height: 100px;
-    position: relative;
+    /* position: relative; */
 }
   
 .donate-now label,
 .donate-now input {
     display: block;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
 }
   
 .donate-now input[type="radio"] {
     opacity: 0.01;
-    z-index: 100;
+    /* z-index: 100; */
 }
   
 .donate-now input[type="radio"]:checked+label,
@@ -182,7 +181,7 @@ input{
     text-align: center;
     background-color: #FAFAFA;
     cursor: pointer;
-    z-index: 90;
+    /* z-index: 90; */
     border-radius: 5px;
     color: #707070;
     font-weight: 600;
@@ -198,7 +197,7 @@ input{
     border-bottom: 1px solid #ddd;
     text-align: center;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .donation-form form input[type="submit"]{
     border: 0;
@@ -219,6 +218,7 @@ input{
     margin: 0 10px;
     padding: 45px 25px;
     border-radius: 4px;
+    flex: 0 0 33.33%;
 }
 .donation-plan-box img{
     width: 60px;
@@ -231,6 +231,9 @@ input{
 }
 .img-box-3{
     background: #fff4d6;
+}
+.donation-plan-box p{
+    margin-top: 15px;
 }
 /* -------------- Donation plan Section Style End -------------- */
 
